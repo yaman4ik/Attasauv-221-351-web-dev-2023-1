@@ -1,0 +1,48 @@
+/* Стили для тега body для установки фонового изображения */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/3.jpg); /* Замените 'фоновое_изображение.jpg' на путь к вашему фоновому изображению */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Установка минимальной высоты на весь экран */
+}
+
+/* Стили для контейнера формы */
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон контейнера формы */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Стили для текстовых полей и чекбокса */
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стили для кнопки входа */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Стили для кнопки входа при наведении */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

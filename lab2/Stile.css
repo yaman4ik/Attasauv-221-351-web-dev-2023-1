@@ -1,0 +1,97 @@
+/* Стилизация заголовка */
+body {
+    background-image: url(images/3.jpg);
+}
+h1 {
+    text-align: center;
+}
+
+/* Общие стили для элементов формы */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стилизация для контейнера с полями ввода */
+div {
+    margin-bottom: 10px;
+}
+
+/* Стилизация для меток */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Стилизация для текстовых полей */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стилизация для радиокнопок и чекбоксов */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Стилизация для кнопки отправки */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стилизация для выпадающего списка */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стилизация для заголовка поля ввода файла */
+input[type="file"] {
+    display: none;
+}
+
+/* Стилизация для метки поля ввода файла */
+label[for="attachment"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Стилизация для выбранного файла */
+input[type="file"]:focus + label[for="attachment"] {
+    background-color: #0056b3;
+}
+
+/* Стилизация для обязательных полей */
+input:required,
+textarea:required,
+select:required {
+    border-color: #ff0000;
+}
+
+/* Стилизация для сообщения об ошибке */
+input:invalid,
+textarea:invalid,
+select:invalid {
+    border-color: #ff0000;
+}
+

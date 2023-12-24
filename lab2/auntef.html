@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аутентификация</title>
+    <link rel="stylesheet" href="auntef.css">
+</head>
+<body>
+    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
+
+        <div><label for="login">Введите логин</label>
+            <input type="text" id="login" name="login"  required>
+        </div>
+
+        <div><label for="pass">Введите пароль</label>
+            <input type="password" id="pass" name="pass" required >
+        </div>
+
+        <div>
+            <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">Запомнить меня</label>
+        </div>
+
+        <button type="submit">Войти</button>
+
+
+    </form>
+</body>
+</html>
